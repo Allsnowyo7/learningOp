@@ -2,7 +2,8 @@
 #include "ram.h"
 
 int main() {
-  Memory m_ram;
+  struct Memory m_ram;
+  m_ram.allocate('a');
   return 0;
 }
 
